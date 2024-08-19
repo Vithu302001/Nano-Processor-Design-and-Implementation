@@ -1,0 +1,22 @@
+
+Mapped LED,Buttons and Reset button for this Nano processor
+------------------------------------------------------------
+
+LEDs - LD3 , LD2 , LD1, LD0
+       MSB              LSB
+
+       Zero - LD14
+       Overflow - LD15
+
+Reset Button - Button U17
+
+
+Behaviour 
+----------
+* After pressing  reset button for a second or more and release , instructions will run from Program Rom in order (from beginning) based on instruction in it.
+
+* Seven Segment Display and LEDs will show the values from 3 -> 5 -> 6 and stop at 6 then remain at 6.  as 6 is the expected answer of (3+2+1)
+
+* Every reset button press, the program will come to initial state(reset) and run as mentioned above.
+
+
